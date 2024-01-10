@@ -17,14 +17,20 @@ body{
     flex-direction: column;
 }
 
-.main-inner{
+.main-inner, .section{
     padding: 2rem;
     text-align: center;
     background-color: #2b2b2b;
     border-radius: .5rem;
+    margin-top: 2rem;
 }
 
-h1{
+.section ul{
+    text-align: left;
+    color: #fff;
+}
+
+h1, h2{
     color: aquamarine;
     margin-bottom: 2rem;
 }
